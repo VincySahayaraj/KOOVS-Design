@@ -1,0 +1,71 @@
+/* .topbrands{
+    
+    display: inline-block;
+    height:auto;
+    background-color: black;
+}
+.topbrands .align-text{
+    
+} */
+/* .topbrands .align-text p.brand-flex{
+    line-height: 80px;
+    font-size: 56px;
+    text-align: left;
+    color:rgb(255,255,255);
+    font-family: 'Helvetica' !important;  
+}
+
+.topbrands .text-top{    
+    
+    width: 100%;
+    font-family: 'Open Sauce One';
+    font-style: normal;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 40px;
+}
+.topbrands .text-top span{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 143.2%;
+    color: #ffffff;
+}
+
+.topbrands .text-top u{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 143.2%;
+    color: #ffffff;
+} */
+
+
+
+
+
+/* Top brands mobile responsive */
+.top_brands{
+    background: #1F1F1F;
+    color: #fff;
+}
+.top-brand-content{
+    font-size:68px;
+}
+
+
+@media (max-width: 567px) {
+
+    .top-brand-content{
+        font-size:29px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .top-brand-content{
+        font-size:29px;
+    }
+
+}

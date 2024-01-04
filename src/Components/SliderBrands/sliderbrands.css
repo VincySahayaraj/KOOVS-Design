@@ -1,0 +1,41 @@
+.BrandItem h5 {
+    margin: 0;
+}
+
+.BrandItem .cards .img-content p {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    color: #fff;
+    font-family: 'OpenSauceOneRegular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.BrandItem .cards .img-content img {
+    position: relative;
+}
+
+.BrandItem .react-multi-carousel-item {
+    height: 400px;
+}
+
+.BrandItem .react-multi-carousel-item .cards,
+.BrandItem .react-multi-carousel-item .img-content,
+.BrandItem .react-multi-carousel-item .img-content img {
+    height: 100%;
+}
+
+.BrandItem .cards {
+    padding: 1px;
+
+}
+
+.BrandItem .react-multi-carousel-item .img-content img {
+    width: 100%;
+}
+
+.BrandItem .react-multi-carousel-list {
+    /* max-height:163px; */
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+} */
+
+/* a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+} */
+
+.section-stories {
+    padding: 42px 30px 59px;
+    background-color: #93FAB0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+.section-stories .header {
+    margin-bottom: 50px;
+}
+
+.story {
+    padding-left: 32px;
+}
+
+.section-stories .text-style {
+
+    width: 100%;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-stories .text-style h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 143.2%;
+    color: #000000;
+    display: block;
+}
+
+.section-stories .text-style span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 143.2%;
+    color: #000000;
+    display: block;
+}
+
+.section-stories .story ul li {
+    padding-right: 5px;
+}
+
+.section-stories .single-product {
+    margin-bottom: 26px;
+    
+}
+.section-stories .single-product .part-1 {
+    position: relative;
+    height: auto;
+    width: 392px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-stories .single-product .part-1 .p {
+
+    position: absolute;
+    bottom: 0px !important;
+    left: 1rem;
+    color: #fff;
+}
+
+/* .section-stories .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+} */
+
+.section-stories #product-4 .part-1 {
+
+    background-size: cover;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.section-stories #product-4 .part-1 img {
+    width: 100%;
+}
+
+.section-stories .single-product .part-1 p {
+
+    position: absolute;
+    padding-left: 15px;
+    bottom: 5px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.section-stories .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-stories .single-product .part-2 span {
+    display: block;
+    font-size: 1rem;
+}
+
+/* .responsive-stories{
+background:#fff
+}
+
+.responsive-stories .single-product .part-1 {
+    position: relative;
+    height: auto;
+    width: 392px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.responsive-stories #product-4 .part-1 {
+
+    background-size: cover;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.responsive-stories #product-4 .part-1 img {
+    width: 100%;
+} */
+.story .react-multi-carousel-track{
+
+    margin-left:80px;
+}
+
+@media (max-width: 567px) {
+
+    .section-stories {
+        background-color: #fff;
+    }
+
+    .section-stories .text-style {
+
+        display: flex;
+        transform: rotate(270deg);
+        position: absolute;
+        font-size: 16px;
+        height:auto;
+       
+       left:-113px;
+       width:274px;
+       top:160px;
+        font-family: 'OpenSauceOneRegular';
+        font-weight: 400;
+        font-style: normal;
+        justify-content: space-between;
+
+    }
+
+    .section-stories .text-style h2 {
+        margin-top: 15px;
+        margin-left: 181px;
+
+    }
+    .react-multi-carousel-list{
+        height:345px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .section-stories {
+        background-color: #fff;
+    }
+
+    .section-stories .text-style {
+
+        display: flex;
+        transform: rotate(270deg);
+        position: absolute;
+        font-size: 16px;
+        height:auto;
+       
+       left:-113px;
+       width:274px;
+       top:160px;
+        font-family: 'OpenSauceOneRegular';
+        font-weight: 400;
+        font-style: normal;
+        justify-content: space-between;
+
+
+    }
+
+    .section-stories .text-style h2 {
+        margin-top: 15px;
+        margin-left: 181px;
+        font-family: 'OpenSauceOneRegular';
+        font-weight: normal;
+        font-style: normal;
+
+    }
+    .react-multi-carousel-list{
+        height:345px;
+    }
+    
+}
+
+@media (max-width: 997px) {
+
+
+    .section-stories {
+        background-color: #fff;
+    }
+
+    .section-stories .text-style {
+
+
+        display: flex;
+        transform: rotate(270deg);
+        position: absolute;
+        font-size: 16px;
+        height:auto;
+       
+       left:-113px;
+       width:274px;
+       top:160px;
+        font-family: 'OpenSauceOneRegular';
+        font-weight: 400;
+        font-style: normal;
+        justify-content: space-between;
+
+    }
+
+    .section-stories .text-style h2 {
+        margin-top: 15px;
+        margin-left: -32px;
+        font-size: 14px;
+        font-family: 'OpenSauceOneRegular';
+        font-weight: bold;
+        font-style: normal;
+        justify-content: space-between;
+        
+
+    }
+    .react-multi-carousel-list{
+        height:345px;
+    }
+    
+
+}

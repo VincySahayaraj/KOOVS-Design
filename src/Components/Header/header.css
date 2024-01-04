@@ -1,0 +1,230 @@
+.header {
+  border-bottom: 2px solid;
+  position: relative;
+}
+
+.brand-name {
+  text-align: center;
+  margin: 0 0 0 100px;
+  /* position: relative; */
+}
+
+.brand-name .main-nav {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: -366px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  transition: all 1s ease-in-out;
+  pointer-events: none;
+}
+
+.brand-name .main-nav.active {
+  top: 59px;
+  /* display: block; */
+  opacity: 1;
+}
+
+.brand-name .koovsHeading {
+
+  text-align: center;
+  justify-content: center;
+  font-family: 'OpenSauceOneRegular';
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* .nav-clothing .nested-list{
+
+  display: block;
+  position: absolute;
+  top: -366px;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  transition: all 1s ease-in-out;
+
+} */
+
+.navbar-collapse.main-nav {
+  padding-top: 23px;
+}
+
+.brand-name .main-nav .row {
+  justify-content: space-between;
+}
+
+.navbar-nav.mr-auto li a {
+
+  color: black;
+  line-height: 20px;
+  font-weight: 500;
+
+}
+
+.brand-name .main-nav ul li {
+
+  text-align: left;
+  list-style-type: none;
+  font-size: 10px;
+  line-height: 94%;
+  color: #000;
+
+}
+
+.navbar {
+
+  display: flex;
+}
+
+.nav-items {
+
+  display: flex;
+  color: #000
+}
+
+.navbar .brand-name .icon-menu {
+
+  position: absolute;
+  width: 40px;
+  float: left;
+  height: 40px;
+  top: -8px;
+  left: 12px;
+
+}
+
+.nested-list.false {
+  height: 0px;
+  overflow: hidden;
+}
+
+.nested-list .nav-item .nav-link {
+
+  padding-left: 45px;
+  color: #000;
+  list-style-type: none;
+  font-size: 10px;
+  line-height: 94%;
+
+}
+
+.navbar .brand-name .koovsHeading {
+
+  position: absolute;
+  width: 157px;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  font-weight: 700;
+  font-family: 'OpenSauceOneRegular';
+  font-style: normal;
+
+}
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #000;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
+
+
+/* Responsive Navbar */
+@media (max-width: 567px) {
+
+  .koovsHeading h3 {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    left: 156px;
+    margin-top: -18px;
+    font-family: 'OpenSauceOneRegular';
+    font-style: normal;
+  }
+  .searchicon {
+
+    display: none;
+  }
+  .account {
+
+    display: none;
+  }
+  .cart {
+    float: left;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .koovsHeading h3 {
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60px;
+    font-size: 30px;
+    left: 170px;
+    font-weight: 700;
+    margin-top: -18px;
+    font-family: 'OpenSauceOneRegular';
+    font-style: normal;
+
+  }
+  .searchicon {
+
+    display: none;
+  }
+  .account {
+
+    display: none;
+  }
+}
